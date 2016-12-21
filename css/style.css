@@ -6,6 +6,18 @@
  * Made By MaterializeCSS.com
  */
 
+body {
+  background-color: #eeeeee;
+}
+
+.card .learn-more.activator {
+    cursor: pointer;
+}
+
+nav {
+  background-color: #eeeeee;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
