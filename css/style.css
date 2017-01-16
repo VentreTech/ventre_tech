@@ -31,15 +31,12 @@ p {
   color: #26a69a;
 }
 
-.parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+#index-banner:before {
+    background: url(/background1.jpg) no-repeat center center fixed;
+    display: block; content:""; position: absolute; z-index:-1;
+    top:0; left: 0; right: 0; height: 100%;
+    opacity:.5;
 }
-  .parallax-container .section {
-    width: 100%;
-  }
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -66,4 +63,21 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+#index-banner h1 {
+    font-weight: 300;
+    font-size: 65px;
+    letter-spacing: 1px;
+    line-height:65px;
+    text-transform: uppercase;
+    color: rgb(3, 24, 58);
+}
+
+#index-banner .btn-large {
+    background-color: rgb(3, 24, 58);
+}
+
+#index-banner .card-panel {
+  background-color: rgba(138, 149, 167, .5);
 }
