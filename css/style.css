@@ -33,6 +33,7 @@ p {
 
 #index-banner:before {
     background: url(/background1.jpg) no-repeat center center fixed;
+    background-size: cover;
     display: block; content:""; position: absolute; z-index:-1;
     top:0; left: 0; right: 0; height: 100%;
     opacity:.5;
@@ -74,10 +75,23 @@ footer.page-footer {
     color: rgb(3, 24, 58);
 }
 
+#index-banner {
+  font-size: 17px;
+}
+
 #index-banner .btn-large {
     background-color: rgb(3, 24, 58);
 }
 
 #index-banner .card-panel {
   background-color: rgba(138, 149, 167, .5);
+}
+
+#index-banner .material-icons {
+    font-size: 100px;
+    padding-top: 50px;
+}
+
+#about {
+  padding-top: 100px;
 }
