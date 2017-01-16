@@ -21,7 +21,8 @@ nav {
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: rgb(3, 24, 58);
+  text-transform: uppercase;
 }
 
 p {
@@ -34,7 +35,6 @@ p {
 
 #index-banner:before {
     background: url(/background1.jpg) no-repeat center center fixed;
-    background-size: cover;
     display: block; content:""; position: absolute; z-index:-1;
     top:0; left: 0; right: 0; height: 100%;
     opacity:.5;
@@ -85,7 +85,8 @@ footer.page-footer {
 }
 
 #index-banner .card-panel {
-  background-color: rgba(138, 149, 167, .5);
+  background-color: rgba(138, 149, 167, .7);
+  margin-left: -4rem;
 }
 
 #index-banner .material-icons {
@@ -95,4 +96,20 @@ footer.page-footer {
 
 #about {
   padding-top: 100px;
+}
+
+#contact-section,
+#contact-section .card {
+  background-color: rgb(3, 24, 58);
+}
+
+#contact-section h3,
+#contact-section h4,
+#contact-section input{
+  color: #eeeeee;
+}
+
+#contact-section .btn {
+  background-color: #eeeeee;
+  color: rgb(3, 24, 58);
 }
