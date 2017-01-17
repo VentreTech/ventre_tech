@@ -104,12 +104,22 @@ footer.page-footer {
 }
 
 #contact-section h3,
-#contact-section h4,
-#contact-section input{
+#contact-section h4 {
   color: #eeeeee;
+}
+
+#contact-section input, 
+#contact-section textarea {
+  background-color: #eeeeee;
+  padding: 5px;
 }
 
 #contact-section .btn {
   background-color: #eeeeee;
+  color: rgb(3, 24, 58);
+}
+
+.footer-copyright a {
+  font-weight: bold;
   color: rgb(3, 24, 58);
 }
