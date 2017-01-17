@@ -50,15 +50,36 @@ p {
   }
 }
 
-@media only screen and (max-width : 600px) {
+@media only screen and (min-width: 1881px) {
+    #index-banner:before {
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width : 1880px) and (min-width : 1380px) {
+    #index-banner:before {
+        max-height: 580px;
+    }
+}
+
+@media only screen and (max-width : 1379px) and (min-width : 600px) {
+    #index-banner:before {
+        max-height: 700px;
+    }
+}
+
+@media only screen and (max-width : 600px) and (min-width : 375) {
   #index-banner .section {
     top: 0;
   }
 }
 
-.icon-block {
-  padding: 0 15px;
+@media only screen and (max-width: 374) {
+    #index-banner:before {
+        max-height: 900px;
+    }
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }
@@ -86,7 +107,6 @@ footer.page-footer {
 
 #index-banner .card-panel {
   background-color: rgba(138, 149, 167, .7);
-  margin-left: -4rem;
 }
 
 #index-banner .material-icons {
@@ -94,9 +114,6 @@ footer.page-footer {
     padding-top: 50px;
 }
 
-#about {
-  padding-top: 100px;
-}
 
 #contact-section,
 #contact-section .card {
