@@ -16,7 +16,12 @@ body {
 }
 
 nav {
-  background-color: #eeeeee;
+  background-color: rgba(238,238,238,0.5);
+}
+
+nav ul{
+  transform: translateX(38%);
+  webkit-transform: translateX(-38%);
 }
 
 nav ul a,
@@ -81,26 +86,25 @@ footer.page-footer {
 }
 
 #index-banner .btn-large {
-    background-color: rgb(3, 24, 58);
+    background-color: rgb(1, 75, 110);
 }
 
 #index-banner .card-panel {
-  background-color: rgba(138, 149, 167, .7);
+  background-color: rgba(94, 149, 180, .7);
   margin-left: -4rem;
 }
 
 #index-banner .material-icons {
     font-size: 100px;
-    padding-top: 50px;
 }
 
 #about {
-  padding-top: 100px;
+  padding-top: 64px;
 }
 
 #contact-section,
 #contact-section .card {
-  background-color: rgb(3, 24, 58);
+  background-color: rgb(1, 75, 110);
 }
 
 #contact-section h3,
@@ -108,7 +112,7 @@ footer.page-footer {
   color: #eeeeee;
 }
 
-#contact-section input, 
+#contact-section input,
 #contact-section textarea {
   background-color: #eeeeee;
   padding: 5px;
@@ -122,6 +126,10 @@ footer.page-footer {
 .footer-copyright a {
   font-weight: bold;
   color: rgb(3, 24, 58);
+}
+
+#who-we-are {
+  padding-top: 100px;
 }
 
 /* Header Viz CSS */
@@ -320,4 +328,3 @@ p.ref {
   .codrops-header h1 {
     font-size: 2.5em;
   }
-}
