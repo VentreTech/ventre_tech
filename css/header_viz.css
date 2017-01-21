@@ -61,3 +61,19 @@
 		font-size: 3em;
 	}
 }
+
+.header-imgs {
+	z-index: 1;
+	opacity: .7;
+	width: 350px;
+	padding: 64px;
+}
+
+.parallax-container {
+	top: -64px;
+
+}
+
+.darken {
+	filter: brightness(50%);
+}

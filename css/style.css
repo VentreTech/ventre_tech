@@ -16,26 +16,27 @@ body {
 }
 
 nav {
-  background-color: rgba(238,238,238,0.5);
+  background-color: transparent;
 }
 
 nav ul{
-  transform: translateX(38%);
-  webkit-transform: translateX(-38%);
+  transform: translateX(36%);
+  webkit-transform: translateX(-36%);
 }
 
-nav ul a,
-nav .brand-logo {
-  color: rgb(3, 24, 58);
-  text-transform: uppercase;
-}
+
+
+ .nav-text {
+   color: white; /**rgb(3, 24, 58)**/
+   text-transform: uppercase;
+ }
 
 p {
   line-height: 2rem;
 }
 
 .button-collapse {
-  color: #26a69a;
+  color: white;
 }
 
 #index-banner:before {
@@ -92,7 +93,7 @@ footer.page-footer {
 #index-banner .card-panel {
   background-color: rgba(94, 149, 180, .7);
   /* margin change to panel was causing panel to break on mobile / responsive */
-  /*margin-left: -4rem;*/  
+  /*margin-left: -4rem;*/
 }
 
 #index-banner .material-icons {
@@ -100,7 +101,7 @@ footer.page-footer {
 }
 
 #about {
-  padding-top: 64px;
+  padding-bottom: 128px;
 }
 
 #contact-section,
@@ -130,8 +131,9 @@ footer.page-footer {
 }
 
 #who-we-are {
-  padding-top: 100px;
+  padding-bottom: 128px;
 }
+
 
 /* Header Viz CSS */
 
