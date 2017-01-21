@@ -20,8 +20,8 @@ nav {
 }
 
 nav ul{
-  transform: translateX(36%);
-  webkit-transform: translateX(-36%);
+  transform: translateX(34%);
+  webkit-transform: translateX(-34%);
 }
 
 
