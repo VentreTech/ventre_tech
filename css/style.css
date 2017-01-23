@@ -40,7 +40,7 @@ p {
 }
 
 #index-banner:before {
-    background: url(/background1.jpg) no-repeat center center fixed;
+    background: url(../images/background1.jpg) no-repeat center center fixed;
     display: block; content:""; position: absolute; z-index:-1;
     top:0; left: 0; right: 0; height: 100%;
     opacity:.5;
