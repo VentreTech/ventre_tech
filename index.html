@@ -114,76 +114,7 @@ layout: default
     <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
-  <div class="container">
-    <div class="section">
-    <div id="portfolio">
-    <div class="row">
-        <div class="col s12">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Portfolio</h4>
-        </div>
-    </div>
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/PyCoach.png">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">PyCoach<i class="material-icons right">more_vert</i></span>
-              <p>Technology:  Django, AngularJS, Django Rest Framework, AWS,
-                  Bootstrap, Ramda, Postgres</p>
-              <p><span class="learn-more activator blue-text">Learn more ...</span></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">PyCoach<i class="material-icons right">close</i></span>
-              <p>Athletic teams have traditionally struggled with injury rates
-                  and illness during competition periods. Coaches are often
-                  made aware of health problems late, if ever at all. In most
-                  cases, these problems can be avoided if they are caught and
-                  addressed early on.
-              </p>
-              <p>
-                  PyCoach is a software service that allows coaches to easily
-                  monitor the wellness of their athletes. Each athlete fills in
-                  a wellness questionnaire every morning, which pyCoach then
-                  reports to the coach using intuitive and attractive
-                  dashboards. This enables the coach to have an immediate
-                  window into how the players are feeling each day. In turn,
-                  the coach can then start the conversation with any players
-                  showing signs of illness, injury, or overtraining.
-              </p>
-              <p><a href="http://www.pycoach.com/">Visit this site</a></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 m6">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/grand_prix2.png">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Central Kentucky Grand Prix<i class="material-icons right">more_vert</i></span>
-              <p>Technology:  Django, AngularJS, Django Rest Framework, Materialize, PostgreSQL, Heroku</p>
-              <p><span class="learn-more activator blue-text">Learn more ...</span></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Central Kentucky Grand Prix<i class="material-icons right">close</i></span>
-              <p>The Central Kentucky Grand Prix application allows participating runners to checkin after each series race, also providing easy search capabilities to runners looking for their previous checkins.</p><p>The site provides a database of results where runners can claim a result to be stored on their personal dashboard, allowing participants to monitor results over time.</p><p> The application also provides race analytics, allowing runners to evaluate the competitiveness of each event.</p>
-              <p><a href="http://www.centralkentuckygrandprix.com">Visit this site</a></p>
-            </div>
-          </div>
-        </div>
-
-      </div> <!-- End Second Row -->
-      <!-- End of Icon Section -->
-    </div>
-    </div>
-  </div>
-
+  {% include portfolio.html %}
 
   <div id="contact-section">
       <div class="container">
