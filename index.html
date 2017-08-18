@@ -7,6 +7,21 @@ layout: default
     <h1 class="main-title">ventre <span class="thin">tech</span></h1>
     <h5 class="main-subtitle thin">full stack web development</h5>
 </div>
+
+<div class="parallax-container valign-wrapper">
+  <div class="row hide-on-med-and-down">
+    <div class="col s12 hide-on-med-and-down"><h4 class="center-align thin" style="color: white">specializing in</h4></div>
+    <div class="col s3 hide-on-med-and-down"><img class="header-imgs center-align" src="images/django.png"/></div>
+    <div class="col s3 hide-on-med-and-down"><img class="header-imgs center-align" src="images/jekyll.png"/></div>
+    <div class="col s3 hide-on-med-and-down"><img class="header-imgs center-align" src="images/angularjs.png" style="margin-top: 12px;"/></div>
+    <div class="col s3 hide-on-med-and-down"><img class="header-imgs center-align" src="images/aws.png" style="margin-bottom: 5px;"/></div>
+  </div>
+  <div class="section no-pad-bot">
+  </div>
+  <div class="parallax darken"><img src="images/background1.jpg" alt="Technologies">
+  </div>
+</div>
+
 <div id="index-banner">
     <div id="about" class="section no-pad-bot">
       <div class="container">
@@ -14,32 +29,42 @@ layout: default
             <h4 class="center">About Us</h4>
           </div>
           <div class="row">
-                <div class="col s12 m12 l3 left offset-l1 hide-on-med-and-down">
-                    <i class="material-icons center-align">launch</i>
-                </div>
-              <div class="col s12 m12 l7">
-                  <div class="card-panel card-overlay">
-              Ventre Tech LLC is a full stack web development firm based in
-              Lexington, Kentucky.  We help our clients clarify their
-              objectives, and value clear, consistent communication. The
-              iterative workflow that we use maximizes the opportunities for
-              our clients to evaluate the direction of their projects and
-              re-prioritize if it becomes necessary.
+            <div class="col s12">
+              <div class="row">
+                  <div class="col s12 m12 l3 hide-on-med-and-down">
+                    <div class="right-align">
+                      <i class="material-icons">launch</i>
+                    </div>
+                  </div>
+                  <div class="col s12 m12 l8">
+                      <div class="card-panel card-overlay">
+                        Ventre Tech LLC is a full stack web development firm based in
+                        Lexington, Kentucky.  We help our clients clarify their
+                        objectives, and value clear, consistent communication. The
+                        iterative workflow that we use maximizes the opportunities for
+                        our clients to evaluate the direction of their projects and
+                        re-prioritize if it becomes necessary.
+                      </div>
+                    </div>
+              </div>
+              <div class="row">
+                  <div class="col s12 m12 l3 hide-on-med-and-down">
+                    <div class="right-align">
+                      <i class="material-icons">settings_input_component</i>
+                    </div>
+                  </div>
+                  <div class="col s12 m12 l8">
+                      <div class="card-panel card-overlay">
+                        We primarily use Django and AngularJS, and our developers have
+                        experience with a variety of languages, including Python, PHP,
+                        R, Javascript and Scala. Our developers
+                        use test-driven development to ensure that the applications we
+                        make are stable and secure. We have strong interests in projects
+                        that use React, React Native, and Scala.js.
+                      </div>
                   </div>
               </div>
-                <div class="col s12 m12 l3 left offset-l1 hide-on-med-and-down">
-                    <i class="material-icons">settings_input_component</i>
-                </div>
-              <div class="col s12 m12 l7">
-                  <div class="card-panel card-overlay">
-              We primarily use Django and AngularJS, and our developers have
-              experience with a variety of languages, including Python, PHP,
-              R, Javascript and Scala. Our developers
-              use test-driven development to ensure that the applications we
-              make are stable and secure. We have strong interests in projects
-              that use React, React Native, and Scala.js.
-                  </div>
-              </div>
+            </div>
           </div>
           <div class="row">
               <div class="col s12 center-align">
@@ -56,7 +81,7 @@ layout: default
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
     </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 2"></div>
+    <div class="parallax darken"><img src="images/orange-viz.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
 
@@ -81,7 +106,7 @@ layout: default
           <h5 class="left-align">Gary Ditsch</h5>
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="images/team1b.jpg">
+              <img class="activator" src="images/gary_square.jpg">
               <!-- <span class="card-title">Gary Ditsch</span> -->
             </div>
             <div class="card-content">
@@ -108,11 +133,11 @@ layout: default
   </div>
 
 
-  <div class="parallax-container valign-wrapper">
+  <!--<div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
     </div>
     <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
+  </div>-->
 
   {% include portfolio.html %}
 
@@ -129,7 +154,7 @@ layout: default
                   <div class="row">
                   <div class="col s8 offset-s2">
                       <p class="left-align light">
-                          <form method="POST" action="https://formspree.io/gary@endurancebasecamp.com">
+                          <form method="POST" action="https://formspree.io/gary@ventre.tech">
 
                               <input type="email" name="email" placeholder="Your email">
 

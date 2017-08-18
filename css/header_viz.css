@@ -10,7 +10,7 @@
 }
 
 #large-header {
-	background-image: url("../background002.png");
+	background-image: url("../images/background002.png");
   top: -64px;
 }
 
@@ -60,4 +60,20 @@
 	.demo-1 .main-title {
 		font-size: 3em;
 	}
+}
+
+.header-imgs {
+	z-index: 1;
+	opacity: .7;
+	width: 350px;
+	padding: 64px;
+}
+
+.parallax-container {
+	top: -64px;
+
+}
+
+.darken {
+	filter: brightness(50%);
 }
